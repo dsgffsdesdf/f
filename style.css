@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1920px;
+}
+
+header{
+    text-align:center; 
+    margin-top: 30px
+}
+
+a{
+    text-decoration: none;  
+}
+
+li{
+    list-style-type:none;
+    margin: 15px 0;
+}
+
+h1{
+    font-family: 'Clash Display', sans-serif;
+    color: rgba(34, 32, 46, 1);
+    font-size: 2.4em
+}
+
+h2{
+    font-family: 'Clash Display', sans-serif;
+    color: rgba(42, 37, 75, 1);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 120px;
+}
+
+h3{
+    font-family: 'Clash Display', sans-serif;
+    color: rgba(42, 37, 75, 1);
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+h4{
+    font-family: 'Clash Display', sans-serif;
+    color: white;
+}
+
+input {
+    display: table-row;
+    margin-bottom: 10px;
+
+}
+
+.top-buttons{
+    width: 30px;
+    height: 30px;
+    translate: 0px -37px;
+}
+
+.top-buttons:active{
+    translate: 0px -36px;
+}
+
+.logo{
+    font-size:2em;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    color: black;
+    translate: 0 0px;
+}
+
+.search{
+    margin: 0 1740px 0 0;
+}
+
+.shopping-cart{
+    margin-right: 20px;
+}
+
+.line{
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1860px;
+    translate: 0 -5px;
+}
+
+.menu{
+    font-family: 'Satoshi', sans-serif;
+    margin: 30px
+}
+
+.menu-button{
+    margin: 0px 40px 0 40px;
+    color: #726E8D
+}
+
+.top-block{
+    height: 1000px;
+    background-image: url(./imgs/Hero\ Blocks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 14% 0 0 55%;
+}
+
+.top-block-container{
+    width: 750px;
+    height: 550px;
+    background-color: white;
+    padding: 70px 80px 70px 80px;
+}
+
+.top-block-container-text{
+    margin: 30px 0 0 0;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1.4em;
+}
+
+.top-block-container-button{
+    font-family: 'Satoshi', sans-serif;
+    display: inline-block;
+    margin-top: 200px;
+    width: 220px;
+    height: 65px;
+    padding: 22px 55px;
+    background-color: rgba(249, 249, 249, 1)
+}
+
+.different-conteiner{
+    height: 550px; 
+    margin: 0 auto;
+    
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 60px;
+}
+
+.different-conteiner-differents-shadow{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(249, 249, 249, 1);
+    padding:60px 65px;
+    text-align: left;
+}
+
+.different-conteiner-text{
+    font-family: 'Satoshi', sans-serif;
+    color: rgba(42, 37, 75, 1);
+    font-size: 1.2em;
+}
+
+.different-conteiner-icons{
+    width: 30px;
+    height: 30px;
+    color: #2200ff;
+}
+
+.products{
+    height: 800px;
+    margin: 0 auto;
+}
+
+.products-column{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.product-container{
+    width: 400px;
+}
+
+.product-img{
+    width: 400px;
+}
+
+.price{
+    font-family: 'Satoshi', sans-serif;
+    color: rgba(42, 37, 75, 1);
+    font-size: 1.3em;
+}
+
+.products-button{
+    font-family: 'Satoshi', sans-serif;
+    display: inline-block;
+    margin: 100px 830px 0 830px;
+    width: 220px;
+    height: 65px;
+    padding: 22px 55px;
+    background-color: rgba(249, 249, 249, 1)
+}
+
+.it-started{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 100px;
+    height: 670px;
+    
+}
+
+.text-and-button-block{
+    width: 825px;
+    height: 600px;
+    background-color: rgba(42, 37, 75, 1);
+    padding: 0px 200px 0 80px;
+
+}
+
+.image-block{
+    width: 825px;
+    height: 600px;
+    background-image: url(/imgs/Image\ Block.jpg);
+    background-size: cover;
+}
+
+.it-started-button{
+    font-family: 'Satoshi', sans-serif;
+    display: inline-block;
+    margin-top: 230px;
+    width: 220px;
+    height: 65px;
+    padding: 22px 55px;
+    background-color: rgba(249, 249, 249, 0.15);
+    color: white;
+}
+
+.it-started-h2{
+    color:white;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.it-started-text{
+    font-family: 'Satoshi', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+.bottom-img{
+    height: 500px;
+    background-image: url(/imgs/Image.jpg);
+    background-size: cover;
+    padding: 100px 600px;
+}
+
+.footer-container{
+    height: 420px;
+    background-color: rgba(42, 37, 75, 1);
+    padding: 75px 100px 0 75px;
+}
+
+.footer-links-and-mailing{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-right: 40px;
+    margin-left: 34px;
+}
+
+.footer-links{
+    font-family: 'Satoshi', sans-serif;
+    color: white;
+}
+form.form-example {
+    display: flex;
+    margin: 140px 120px;
+}
+
+.bottom-img-h2{
+    margin: 0;
+    color: white;
+    font-size: 2.6em;
+}
+
+div.form-example {
+    display: flex;
+}
+
+
+
+.bottom-img-text{
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 30px 50px
+}
+
+.sign-up-button{
+    height: 50px;
+    width: 100px;
+    font-family: 'Satoshi', sans-serif;
+    border:none;
+    background-color: rgba(42, 37, 75, 1);
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+
+.sign-up-button:hover{
+    cursor: pointer
+}
+
+.input-mail{
+    font-family: 'Satoshi', sans-serif;
+    border: none;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.input-mail:active{
+    outline-color: none;
+}
+
+form.footer-form-example{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-sign-up-button{
+    height: 50px;
+    width: 100px;
+    font-family: 'Satoshi', sans-serif;
+    border:none;
+    font-size: 1em;
+}
+
+.footer-sign-up-button:hover{
+    cursor: pointer
+}
+
+.footer-input-mail{
+    font-family: 'Satoshi', sans-serif;
+    border: none;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.footer-line{
+    margin: 50px auto 0 auto;
+    border-bottom: 1px solid rgba(78, 77, 147, 1);
+    width: 1700px;
+}
+
+.copyright-and-socials{
+    display: flex;
+    margin: 25px 20px 0 20px;
+    justify-content: end;
+}
+
+.copyright{
+    font-family: 'Satoshi', sans-serif;
+    color:white;
+    margin-right: 1220px;
+}
+
+.social-button{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.social-button:active{
+    translate: 0 1px;
+}
